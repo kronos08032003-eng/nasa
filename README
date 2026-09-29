@@ -1,0 +1,21 @@
+# Projeto: API REST de Missões Espaciais (NASA)
+
+## 1. Identificação
+* **Nome completo do aluno:** Felipe Dias
+* **Unidade Curricular:** Desenvolvimento de Serviços Web
+
+---
+
+## 2. Descrição do Projeto
+Trata-se de uma API simplificada desenvolvida para gerenciar um histórico de missões espaciais baseadas na agência espacial NASA. 
+
+A aplicação realiza as quatro operações fundamentais do padrão CRUD (Create, Read, Update, Delete) utilizando persistência de dados simulada em memória através de arrays estruturados. O sistema valida dados de entrada obrigatórios, manipula parâmetros de rotas dinâmicas e retorna respostas padronizadas em formato JSON acompanhadas de seus respectivos códigos de status HTTP correspondentes (como `200 OK`, `201 Created`, `204 No Content`, `400 Bad Request` e `404 Not Found`).
+
+---
+
+## 3. Tecnologias Utilizadas
+* **PHP:** Linguagem de programação interpretada do lado do servidor utilizada para construir a lógica principal da aplicação.
+* **Slim Framework (v4):** Micro-framework PHP utilizado para o roteamento eficiente das requisições HTTP e gerenciamento de Middlewares.
+* **Composer:** Gerenciador de dependências do ecossistema PHP para autoloading automático de classes e instalação do Slim.
+* **Postman:** Ferramenta de desenvolvimento utilizada para simular requisições de clientes, testar os payloads JSON e validar os endpoints da API.
+* **JSON (JavaScript Object Notation):** Formato padrão universal adotado para o intercâmbio de dados entre o cliente e o servidor.
